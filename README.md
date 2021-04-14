@@ -11,5 +11,7 @@ We will combine **computer vision** and **natural language processing** techniqu
 
 The difference between localisation and detection is that the localisation doesn't classify and the detection does.
 
-So, in the **Detection** directory we can find the models trained in IceVision: FasterRCNN, EfficientDet and FasterRCNN with a ResNests50 as backbone.
-in the **Classification** directory we will find the different models trained for text classification. We use the annotation's text labels in order to classify instead of doing OCR to the detections because OCR doesn't perform properly in the FUNSD dataset. In the **Localisation** direction we will apply techniques of image processing in order to try other possibilities. However, the results we obtain are not the best.
+So, 
+- in the **Detection** directory we can find the models trained in IceVision: FasterRCNN, EfficientDet and FasterRCNN with a ResNests50 as backbone.
+- in the **Classification** directory we will find the different models trained for text classification. We use the annotation's text labels in order to classify instead of doing OCR to the detections because OCR doesn't perform properly in the FUNSD dataset. 
+- In the **Localisation** direction we will apply techniques of image processing in order to try other possibilities. However, the results we obtain are not the best.
